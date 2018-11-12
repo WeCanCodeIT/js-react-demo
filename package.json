@@ -1,0 +1,18 @@
+{
+  "name": "js-react-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel src/main/resources/static/index.html",
+"build": "parcel build src/main/resources/static/js/index.js --out-dir src/main/resources/static/dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "parcel-bundler": "^1.10.3"
+  }
+}
